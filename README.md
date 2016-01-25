@@ -20,6 +20,13 @@ Basic Usage
 
 See http://mindmup.github.com/editable-table/
 
+To use the callback added in this fork:
+$('#table').editableTableWidget({onShowEditor: yourFunction});
+
+function yourFunction(active, editor) {
+    //your code here
+};
+
 Dependencies
 ------------
 * jQuery http://jquery.com/
