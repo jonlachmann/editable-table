@@ -27,7 +27,7 @@ $('#table').editableTableWidget({onShowEditor: yourFunction});
 function yourFunction(active, editor) {
     //your code here
 };
-´´´
+```
 
 Dependencies
 ------------
